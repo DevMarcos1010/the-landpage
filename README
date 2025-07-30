@@ -1,21 +1,13 @@
-# Login Landpage - Versão 1.1
+# Login Landpage - Versão 1.0
 
-Site realizado com HTML5, CSS3 e Javascript, sendo os dois últimos arquivos externos ao `index.html` para padronização e reuso desses arquivosem demais
-projetos atuais e futuros.
+Site realizado com HTML5, CSS3 e Javascript, sendo o 'pageMain.css' a estilização pai de todos os arquivos .html subsequentes para padronização da estilização e para facilitar sua aplicação em novas partes desse projeto; e o 'homeApp.js' o responsável por todo o papel de trazer interatividade ao site.
 
-Este projeto tem por objetivo testar meus próprios conhecimentos acerca das linguagens de desenvolvimento citadas acima e, também, praticar a minha 
-criatividade e pensamento para a programação.
+Este projeto tem por objetivo testar meus próprios conhecimentos acerca das linguagens de desenvolvimento citadas acima e, também, praticar a minha criatividade e pensamento para a programação.
+O projeto, antes composto por vários arquivos HTML estáticos que se comunicavam entre si, foi reduzido a um único arquivo HTML, agora dinâmico, graças à manipulação do DOM do site por meio de Javascript.
 
-O projeto, antes composto por vários arquivos HTML estáticos que se comunicavam entre si, foi reduzido a um único arquivo HTML, agora dinâmico, graças 
-à manipulação do DOM do site por meio de Javascript.
+### Ideias
 
-Há uma expectativa pueril de que, no final do projeto, haja homepages diferentes dependendo de qual tema o usuário escolhe para logar com o login e 
-senha predefinidos.
+* Usar um banco de dados para salvar, gerenciar e autorizar usuários a entrar no site, pelo formulário de login.
 
-O projeto não foi inteiramente finalizado e, mesmo que após todas as alterações documentadas aqui e as devidas correções de erros forem sanadas, creio
-que mesmo assim, haverá ainda mais coisas a melhorar.
-
-## Notas de aprimoramento
-
-Para um futuro ainda distante, seria necessário o uso de um banco de dados para armazenar os dados de login e senha, o que seria um desafio a mais para
-o desenvolvedor, que teria que ter a expertise necessária para gerenciar a segurança e integridade dos dados.
+* Há uma expectativa minha de que, no final do projeto, haja homepages diferentes dependendo de qual tema o usuário escolhe para logar com o login e senha predefinidos.
+    OBS: O projeto não foi inteiramente finalizado e, essa ideia é apenas uma realização secundária.
