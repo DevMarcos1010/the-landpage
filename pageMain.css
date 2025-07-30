@@ -1,0 +1,256 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.light {
+    background: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957024.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    --first-color: #9ACD32;
+    --second-color: #262626;
+    --third-color: #fff;
+
+    transition: 100ms
+}
+
+.dark {
+    background: url('https://i.redd.it/ydvkucb006j81.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    --first-color: #7e4ea5;
+    --second-color: #fff;
+    --third-color: #363636;
+
+    transition: 100ms
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    padding: 0 100px;
+    box-shadow: -5px 0 50px #262626;
+}
+
+.themeToggle {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: v#fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.themeToggle:hover {
+    text-decoration: underline;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*era pra deixar o card no meio*/
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    /*corrige a centralização do card*/
+    box-sizing: border-box;
+    box-shadow: 0 12px 27px #262626;
+    border-radius: 10px;
+    background: var(--third-color);
+}
+
+h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: var(--second-color);
+    text-align: center;
+    font-weight: 700;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: var(--second-color);
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--second-color);
+    outline: none;
+    /*destaque do input enquando escreve*/
+    background: var(--third-color);
+}
+
+.inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--second-color);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputBox input:focus~label,
+.inputBox input:valid~label {
+    top: -20px;
+    left: 0;
+    color: var(--first-color);
+    font-size: 12px;
+}
+
+.inputBox input::placeholder {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.inputBox input:focus::placeholder {
+    opacity: 100%;
+}
+
+.submit {
+    cursor: pointer;
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--second-color);
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--first-color);
+}
+
+
+.forgotten {
+    display: block;
+    text-align: right;
+    position: relative;
+    top: -20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.submit {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: var(--first-color);
+    border-radius: 7px;
+    border-style: none;
+    font-weight: 500;
+}
+
+.account-back {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    color: var(--second-color);
+}
+
+.account-back,
+.account-back a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.div-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+#privacyContainer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 800px;
+
+}
+
+#privacyBox {
+    width: 800px;
+    padding: 50px;
+    height: 80vh;
+}
+
+.signature {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.go-back {
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin: 0 0 0 9rem;
+    padding: 0.5rem;
+    color: var(--second-color);
+}
+
