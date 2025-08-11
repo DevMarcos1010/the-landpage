@@ -10,4 +10,4 @@ O projeto, antes composto por vários arquivos HTML estáticos que se comunicava
 * Usar um banco de dados para salvar, gerenciar e autorizar usuários a entrar no site, pelo formulário de login.
 
 * Há uma expectativa minha de que, no final do projeto, haja homepages diferentes dependendo de qual tema o usuário escolhe para logar com o login e senha predefinidos.
-    OBS: O projeto não foi inteiramente finalizado e, essa ideia é apenas uma realização secundária.
+    * OBS: O projeto não foi inteiramente finalizado e, essa ideia é apenas uma realização secundária.

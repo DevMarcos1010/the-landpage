@@ -80,8 +80,7 @@ const PrivacyApp = () => {
         <br>
         <p><strong>ATENÇÃO:</strong> Este site e qualquer outra página associada a ele
             não possui nenhuma funcionalidade prática de aplicação cotidiana, seu
-            desenvolvimento se restringe apenas à mesura dos conhecimentos sobre as
-            linguagens de programação do desenvolvedor deste projeto</p>
+            desenvolvimento se restringe apenas à mesura dos conhecimentos sobre Desenvolvimento Web do desenvolvedor deste projeto</p>
         <p>O desenvolvedor pede encarecidamente para não colocar nenhum dado real nos
             campos de preenchimento deste projeto, sinta-se à vontade para explorar
             os recursos desenvolvidos com tanta dedicação usando emails, nicknames
