@@ -86,6 +86,7 @@ body {
     box-shadow: 0 12px 27px #262626;
     border-radius: 10px;
     background: var(--third-color);
+
 }
 
 h2 {
@@ -104,6 +105,7 @@ h2 {
 
 .inputBox {
     position: relative;
+    color: var(--second-color);
 }
 
 .inputBox input {
@@ -116,6 +118,7 @@ h2 {
     outline: none;
     /*destaque do input enquando escreve*/
     background: var(--third-color);
+    color: var(--second-color);
 }
 
 .inputBox label {
@@ -177,6 +180,7 @@ a:hover {
 .submit {
     position: relative;
     display: inline-block;
+    width: 100%;
     padding: 10px 20px;
     font-size: 16px;
     text-decoration: none;
@@ -187,15 +191,16 @@ a:hover {
     font-weight: 500;
 }
 
-.account-back {
+.toggle-link {
     display: block;
-    text-align: left;
-    margin-top: 20px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding-top: 20px;
     color: var(--second-color);
 }
 
-.account-back,
-.account-back a {
+.toggle-link,
+.toggle-link a {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -231,7 +236,20 @@ a:hover {
 #privacyBox {
     width: 800px;
     padding: 50px;
-    height: 80vh;
+    height: fit-content;
+
+    h1, p {
+        color: var(--second-color);
+    }
+
+    .help-video {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 20px 0;
+        border: 2px solid var(--first-color);
+        border-radius: 10px;
+    }
 }
 
 .signature {
@@ -244,13 +262,18 @@ a:hover {
     font-size: 14px;
 }
 
-.go-back {
-    position: relative;
-    top: 0;
-    right: 0;
-    text-align: right;
-    margin: 0 0 0 9rem;
-    padding: 0.5rem;
-    color: var(--second-color);
-}
+#go-back {
 
+    display: block;
+    text-align: center;
+
+    span {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background: var(--first-color);
+        border-radius: 7px;
+        font-weight: 500;
+    }
+    
+}
